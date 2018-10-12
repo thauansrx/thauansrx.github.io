@@ -1,0 +1,107 @@
+.link-style,.nav-a{text-decoration:none}
+.mobile-instructions,.sub-about{font-style:italic;text-align:center}
+.about-h1,
+.click-span,
+.convo-title,
+.header-h1,
+.pdf-link,
+.platform,
+.sub-about{text-align:center}*{margin:0}
+section{color:#777;padding:40px 0;line-height:1.8}
+h1,h2,h3{font-family:Montserrat,Helvetica,sans-serif}
+a,p{font-family:Raleway,Helvetica,sans-serif}
+.list-display{display:list-item}
+.bold-underline{border-bottom:2px solid gray;padding-bottom:5px;margin-bottom:5px}
+.mr5{margin-right:5px}
+.mt-5{margin-top:5px}.mt-10{margin-top:10px}
+.dn{display:none}
+.di{display:initial}
+.header-h1,.nav-a{display:inline-block;text-transform:uppercase}
+.--white{color:#fff}
+.--black{color:#000}
+.--light-gray{color:#d3d3d3}
+.--purple{color:purple}
+.--darkblue{color:#00008b}
+.--skyblue{color:#87ceeb}
+.--gold-gradient{color:#000;background:linear-gradient(to bottom right,#ff69b4,gold);border-radius:5px;padding:0}
+.--bg-black{background:#000}
+.--bg-white{background:#fff}
+.--bg-limegreen{background:#32cd32}
+.--bg-red{background:red}
+header{height:100vh}
+.my-img-bg{background-image:url(../images/profile/portrait-1.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.header-h1{position:absolute;top:50%;left:0;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);padding:12px 24px;letter-spacing:10px;font-weight:400;font-size:24px}
+nav{position:fixed;top:0;width:100%;z-index:1}
+.nav-a{padding:16px;font-size:16px}
+.borderless{border:none;outline:0;transition:.3s ease-in-out all}
+.nav-a:hover{border-bottom:2px solid #d3d3d3;color:#000;-webkit-transform:scale(1.11);-ms-transform:scale(1.11);transform:scale(1.11)}
+.nav-li{list-style:none;float:left}
+.nav-fa{margin-right:3px}
+.nav-toggle-i{position:absolute;right:0;top:13px;font-size:1.5em;transition:all .3s ease-in-out}
+.hover-i:hover{cursor:pointer;-webkit-transform:scale(1.11);-ms-transform:scale(1.11);transform:scale(1.11)}
+.padding-bottom-zero{padding-bottom:0}
+.about-h1{padding:20px 0;font-weight:400;font-size:24px;text-transform:uppercase}
+.sub-about{font-size:14px;padding-bottom:20px;font-weight:200}
+.profile-desc{display:-webkit-flex;display:flex;max-width:980px;margin:50px auto 0;font-size:15px}
+.profile-desc-img{width:100%;height:auto;opacity:.75}
+.profile-desc-img:hover{opacity:1}
+.profile-desc-div{width:50%;margin:0 25px}
+.name-container-i{float:left;margin-right:10px;margin-top:5px;font-size:1.2em}
+.name-container{font-weight:700;width:50%;margin:auto auto 40px!important}
+.statistics,.statistics-h2{font-weight:300}
+.statistics{display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;margin:40px 0 0}
+.statistics-style{background:#616161;color:#fff}
+.statistics-div{min-width:100px;padding:24px 0}
+.parallaxed-h1,.work-heading{font-weight:400;text-transform:uppercase}
+.portfolio-section{padding:0}
+.heading-container{position:relative;min-height:275px}
+.parallaxed-h1{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:32px;letter-spacing:10px;padding:15px}
+.work-heading{margin:60px 0 20px 10px}
+.work-container{max-width:1200px;margin:auto}
+.work-row{display:-webkit-flex;display:flex;margin-bottom:15px}
+.work-row-div{width:33.3333%;padding:8px}
+.work-row-clients{width:50%;padding:8px}
+.work-row-img{width:100%;height:auto}
+.img-border{border:2px solid #000}
+.work-row-img:hover{cursor:pointer;opacity:.75}
+.resume-container{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;margin:auto}
+.pdf-link{display:inline-block;padding:10px;width:170px;margin:10px}
+.link-style{outline:0;border:none;color:#fff;transition:.5s ease-in-out all}
+.link-style:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05)}
+.convo-row{display:-webkit-flex;display:flex}
+.convo-container{width:33.33333%;margin-left:10px;transition:.5s ease-in-out transform}
+.container-hover:hover{cursor:pointer;-webkit-transform:scale(1.02);-ms-transform:scale(1.02);transform:scale(1.02)}
+.convo-img{width:100%;height:auto}
+.convo-title{text-transform:uppercase;margin:10px 0}
+.convo-description{padding:15px;line-height:2}
+.click-span{display:block;font-size:22px}
+.mobile-instructions{font-size:18px;margin:40px 0}
+.social-row{-webkit-justify-content:center;justify-content:center}
+.platform{font-weight:700;text-transform:capitalize}.--dev{background:#333}.--codementor{background:#003645}.--github{background:purple}.--instagram{background:#fcbe66}.--twitter{background:#87ceeb}.--linkedIn{background:#00008b}
+.social-i{font-size:17em}
+.contact-container{display:-webkit-flex;display:flex;justify-content:space-around;max-width:768px;margin:20px auto}
+.contact-span{margin:0 10px}
+.contact-icons{font-size:28px;margin-right:16px}
+.contact-a{font-size:20px;letter-spacing:2px}@media (max-width:992px){.work-row{flex-direction:column}
+.work-row-clients,.work-row-div{width:100%;margin:8px 0;padding:0}
+.work-row-img{max-height:none;height:auto}
+.convo-row{flex-direction:column}
+.convo-container{width:100%;margin-left:0}
+.social-img{width:30%;margin:10px 0;-webkit-transform:translate(115%);-ms-transform:translate(115%);transform:translate(115%)}}@media(max-width:850px){.header-h1{font-size:20px;letter-spacing:6px}
+.profile-desc{flex-direction:column;align-content:center;width:80%;-webkit-justify-content:center;justify-content:center}
+.profile-desc-div{width:100%;margin:0}
+.name-container{font-size:18px;width:40%}
+.social-i{font-size:15em}}@media(max-width:700px){.header-h1{display:none}
+.name-container{font-size:18px;width:43%}
+.contact-container{flex-direction:column;justify-content:flex-start}
+.contact-a{font-size:14px}}@media(max-width:625px){section#portfolio{padding-left:8px;padding-right:8px}
+.work-row{flex-direction:column}
+section#portfolio .work-row div{width:100%;padding:0}
+section#portfolio .work-row img{max-height:none;height:auto}
+.location-container{flex-direction:column;width:95%;-webkit-justify-content:center;justify-content:center}
+.map-wrapper{width:90%;margin-bottom:25px;margin-right:auto;margin-left:auto}
+.social-i{font-size:10em}}@media(max-width:600px){.nav-li{float:none}
+.statistics{flex-direction:column;text-align:center}
+.name-container{font-size:18px;width:55%}}@media(max-width:460px){.name-container{font-size:18px;width:80%}
+.parallaxed-h1{letter-spacing:6px}
+.social-i{font-size:8em}}
